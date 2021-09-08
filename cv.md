@@ -21,3 +21,18 @@ Junior Frontend Developer.
 - Vs Code, Zeplin, Prepros
 - Adobe Photoshop
 - Autodesk autocad
+
+## Code Example
+
+```
+function unique(arr) {
+    let result = [];
+    for (let str = 0; str < arr.length; str++) {
+        if (arr[str] !== arr[str+1]) {
+            result.push(arr[str]);
+        }
+    }
+    return result;
+}
+console.log(unique([1,1,1,12,12,2,32,32,1,2,2]));
+```
