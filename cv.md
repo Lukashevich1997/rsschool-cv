@@ -4,7 +4,7 @@ Junior Frontend Developer.
 
 ---
 
-## Contacts info
+## Contact info
 
 - **Phone:** +375 29 838 64 46
 - **E-mail:** ldms7@mail.ru
