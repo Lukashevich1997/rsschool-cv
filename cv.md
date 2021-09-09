@@ -1,8 +1,12 @@
 # Hi, I`m Dzmitry Lukashevich
 
-Junior Frontend Developer.
-
----
+Begginer Frontend Developer.
+IT business was interesting topic for me, so once I've decided to try myself in IT.
+At the beginning I didn't know which direction to choose, so I have started to collect information about
+main trends and most popular programming languages.
+I have decided to pay attention to front-end, JS and it pulled me in.
+For some period of time I was studing by my own, after that, I learned about the rsscool courses, so here I am.
+My main goal is to learn as much as possible about JS and become demanded specialist.
 
 ## Contact info
 
