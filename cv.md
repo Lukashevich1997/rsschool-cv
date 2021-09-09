@@ -47,7 +47,8 @@ At the moment I have no work experience
 - **University:** Belarusian National Technical University, Civil Engineering
 - JS, CSS, HTML, Git & GitHub video courses on YouTube
 - JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
-- [developer.mozilla.org](https://developer.mozilla.org/ru/docs/Learn)
+- [developer.mozilla.org](https://developer.mozilla.org/ru/docs/Learn) (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
 ## Language
 
