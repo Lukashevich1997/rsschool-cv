@@ -15,7 +15,8 @@ Junior Frontend Developer.
 
 ## Skills
 
-- HTML, CSS, Markdown
+- HTML, Markdown
+- CSS, Sass/Scss
 - JavaScript (Basics)
 - Git, GitHub
 - Vs Code, Zeplin, Prepros
@@ -27,12 +28,27 @@ Junior Frontend Developer.
 ```
 function unique(arr) {
     let result = [];
-    for (let str = 0; str < arr.length; str++) {
-        if (arr[str] !== arr[str+1]) {
-            result.push(arr[str]);
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] !== arr[i+1]) {
+            result.push(arr[i]);
         }
     }
     return result;
 }
 console.log(unique([1,1,1,12,12,2,32,32,1,2,2]));
 ```
+
+## Experience
+
+At the moment I have no work experience
+
+## Education and courses
+
+- **University:** Belarusian National Technical University, Civil Engineering
+- JS, CSS, HTML, Git & GitHub video courses on YouTube
+- JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+- [developer.mozilla.org](https://developer.mozilla.org/ru/docs/Learn)
+
+## Language
+
+English - A2
