@@ -1,6 +1,6 @@
 # Hi, I`m Dzmitry Lukashevich
 
-Begginer Frontend Developer.
+Begginer Front-end Developer.
 IT business was interesting topic for me, so once I've decided to try myself in IT.
 At the beginning I didn't know which direction to choose, so I have started to collect information about
 main trends and most popular programming languages.
