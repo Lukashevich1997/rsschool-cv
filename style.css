@@ -1,0 +1,149 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:16px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #b1a5b0;    
+}
+
+.wrapper {
+    margin: 10px 0 0 0;
+    justify-content: center;
+    min-height: 100%;    
+    display: grid;
+    grid-template: minmax(100px, auto) 1fr minmax(70px, auto)/ 1000px;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+.header {
+    border-radius: 20px;  
+    border: 3px solid #ffffff;
+    grid-area: header;
+    background-color: #706a75;
+    display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto,600px) 1fr;
+}
+.header__image {
+    grid-column: 2/3;  
+    display: grid;  
+    padding: 30px 0 30px 0;
+    justify-content: center;
+}
+.header__image img{    
+    width: 250px;    
+    border-radius: 20px;        
+}
+.header__title {
+    grid-column: 3 / 4;  
+    padding-left: 50px;      
+}
+.header__title h1{
+    text-align: center;
+    padding: 30px 0 30px 0; 
+    color: #ffffff;  
+    font-size: 36px;
+    font-weight: 800;
+}
+.header__title p{    
+    background-color: #ffffff; 
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 18px;         
+}
+.main {
+    grid-area: "main";
+    display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto,600px) 1fr;
+}
+.sidebar {        
+    padding: 0 0 20px 0;   
+    grid-column: 2 / 3;
+    background-color: #706a75;      
+    text-align: center;    
+    border-right: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;  
+}
+.sidebar h2 {
+    padding: 30px 0 20px 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.sidebar__info {       
+}
+.sidebar__list {
+    margin: 0 60px 0 60px;
+    background-color: #ffffff;     
+    border-radius: 20px;    
+}
+.sidebar__list li {
+    padding: 10px 0 10px 0;          
+}
+.sidebar__html {
+    background: url('../rsschool-cv/image/html.svg') left center;   
+}
+.sidebar__header { 
+    padding: 0 0 10px 0; 
+    font-weight: 800; 
+}
+.content {    
+    grid-column: 3 / 4; 
+    padding: 0 0 0 60px; 
+}
+.content h2 {
+    padding: 30px 0 30px 0;
+    font-size: 30px;
+    font-weight: 800;
+}
+.Education_and_courses__list li{
+    line-height: 30px;
+    list-style: square;
+}
+.Code pre{    
+    transform: translate(-170px,0);           
+}
+.footer {    
+    grid-area: footer;
+    background-color: #706a75;    
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    align-items: center;    
+    border-radius: 20px;
+    padding: 30px 0 30px 0;
+    border: 3px solid #ffffff;
+}
+.footer__image {
+    grid-column: 1 / 2;   
+    text-align: center;
+}
+.footer__image img {
+    width: 50px;    
+}
+.footer__year {  
+    grid-column: 2 / 4;  
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.footer__logo {
+    display: grid;
+    grid-column: 4 / 5;     
+}
+.footer__logo img{
+    width: 150px;      
+}
